@@ -43,7 +43,7 @@
             // btAdd
             // 
             this.btAdd.Location = new System.Drawing.Point(67, 305);
-            this.btAdd.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btAdd.Margin = new System.Windows.Forms.Padding(6);
             this.btAdd.Name = "btAdd";
             this.btAdd.Size = new System.Drawing.Size(177, 54);
             this.btAdd.TabIndex = 0;
@@ -54,7 +54,7 @@
             // btSum
             // 
             this.btSum.Location = new System.Drawing.Point(314, 302);
-            this.btSum.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btSum.Margin = new System.Windows.Forms.Padding(6);
             this.btSum.Name = "btSum";
             this.btSum.Size = new System.Drawing.Size(177, 54);
             this.btSum.TabIndex = 1;
@@ -64,7 +64,7 @@
             // btMul
             // 
             this.btMul.Location = new System.Drawing.Point(570, 302);
-            this.btMul.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btMul.Margin = new System.Windows.Forms.Padding(6);
             this.btMul.Name = "btMul";
             this.btMul.Size = new System.Drawing.Size(177, 54);
             this.btMul.TabIndex = 2;
@@ -74,7 +74,7 @@
             // btDiv
             // 
             this.btDiv.Location = new System.Drawing.Point(784, 302);
-            this.btDiv.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btDiv.Margin = new System.Windows.Forms.Padding(6);
             this.btDiv.Name = "btDiv";
             this.btDiv.Size = new System.Drawing.Size(177, 54);
             this.btDiv.TabIndex = 3;
@@ -84,17 +84,17 @@
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(146, 49);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(6);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(232, 44);
+            this.textBox1.Size = new System.Drawing.Size(232, 53);
             this.textBox1.TabIndex = 4;
             // 
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(146, 180);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(6);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(232, 44);
+            this.textBox2.Size = new System.Drawing.Size(232, 53);
             this.textBox2.TabIndex = 5;
             // 
             // label1
@@ -103,7 +103,7 @@
             this.label1.Location = new System.Drawing.Point(425, 55);
             this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(203, 37);
+            this.label1.Size = new System.Drawing.Size(269, 46);
             this.label1.TabIndex = 6;
             this.label1.Text = "Ввод числа 1";
             // 
@@ -113,14 +113,14 @@
             this.label2.Location = new System.Drawing.Point(425, 189);
             this.label2.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(205, 37);
+            this.label2.Size = new System.Drawing.Size(269, 46);
             this.label2.TabIndex = 7;
             this.label2.Text = "Ввод числа 2";
             // 
             // btLog
             // 
             this.btLog.Location = new System.Drawing.Point(1050, 302);
-            this.btLog.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btLog.Margin = new System.Windows.Forms.Padding(6);
             this.btLog.Name = "btLog";
             this.btLog.Size = new System.Drawing.Size(196, 57);
             this.btLog.TabIndex = 8;
@@ -134,14 +134,15 @@
             this.lbAnswer.Location = new System.Drawing.Point(563, 422);
             this.lbAnswer.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lbAnswer.Name = "lbAnswer";
-            this.lbAnswer.Size = new System.Drawing.Size(102, 37);
+            this.lbAnswer.Size = new System.Drawing.Size(130, 46);
             this.lbAnswer.TabIndex = 9;
             this.lbAnswer.Text = "Ответ";
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(19F, 37F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(23F, 46F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Red;
             this.ClientSize = new System.Drawing.Size(1364, 511);
             this.Controls.Add(this.lbAnswer);
             this.Controls.Add(this.btLog);
