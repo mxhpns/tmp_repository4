@@ -22,7 +22,14 @@ namespace tmp_repository4
         }
         static double div(double numberA, double numberB)
         {
-            return numberA / numberB;
+            try
+            {
+                return numberA / numberB;
+            }
+            catch (Exception)
+            {
+                return 0;
+            }          
         }
     }
 }
