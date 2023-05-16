@@ -38,110 +38,111 @@
             this.label2 = new System.Windows.Forms.Label();
             this.btLog = new System.Windows.Forms.Button();
             this.lbAnswer = new System.Windows.Forms.Label();
-            this.btAnswer = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btAdd
             // 
-            this.btAdd.Location = new System.Drawing.Point(189, 212);
+            this.btAdd.Location = new System.Drawing.Point(67, 305);
+            this.btAdd.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.btAdd.Name = "btAdd";
-            this.btAdd.Size = new System.Drawing.Size(75, 23);
+            this.btAdd.Size = new System.Drawing.Size(177, 54);
             this.btAdd.TabIndex = 0;
             this.btAdd.Text = "+";
             this.btAdd.UseVisualStyleBackColor = true;
+            this.btAdd.Click += new System.EventHandler(this.btAdd_Click);
             // 
             // btSum
             // 
-            this.btSum.Location = new System.Drawing.Point(294, 211);
+            this.btSum.Location = new System.Drawing.Point(314, 302);
+            this.btSum.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.btSum.Name = "btSum";
-            this.btSum.Size = new System.Drawing.Size(75, 23);
+            this.btSum.Size = new System.Drawing.Size(177, 54);
             this.btSum.TabIndex = 1;
             this.btSum.Text = "-";
             this.btSum.UseVisualStyleBackColor = true;
             // 
             // btMul
             // 
-            this.btMul.Location = new System.Drawing.Point(401, 211);
+            this.btMul.Location = new System.Drawing.Point(570, 302);
+            this.btMul.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.btMul.Name = "btMul";
-            this.btMul.Size = new System.Drawing.Size(75, 23);
+            this.btMul.Size = new System.Drawing.Size(177, 54);
             this.btMul.TabIndex = 2;
             this.btMul.Text = "*";
             this.btMul.UseVisualStyleBackColor = true;
             // 
             // btDiv
             // 
-            this.btDiv.Location = new System.Drawing.Point(516, 211);
+            this.btDiv.Location = new System.Drawing.Point(784, 302);
+            this.btDiv.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.btDiv.Name = "btDiv";
-            this.btDiv.Size = new System.Drawing.Size(75, 23);
+            this.btDiv.Size = new System.Drawing.Size(177, 54);
             this.btDiv.TabIndex = 3;
             this.btDiv.Text = "/";
             this.btDiv.UseVisualStyleBackColor = true;
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(210, 60);
+            this.textBox1.Location = new System.Drawing.Point(146, 49);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 22);
+            this.textBox1.Size = new System.Drawing.Size(232, 44);
             this.textBox1.TabIndex = 4;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(210, 117);
+            this.textBox2.Location = new System.Drawing.Point(146, 180);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 22);
+            this.textBox2.Size = new System.Drawing.Size(232, 44);
             this.textBox2.TabIndex = 5;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(328, 63);
+            this.label1.Location = new System.Drawing.Point(425, 55);
+            this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(92, 16);
+            this.label1.Size = new System.Drawing.Size(203, 37);
             this.label1.TabIndex = 6;
             this.label1.Text = "Ввод числа 1";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(328, 120);
+            this.label2.Location = new System.Drawing.Point(425, 189);
+            this.label2.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(92, 16);
+            this.label2.Size = new System.Drawing.Size(205, 37);
             this.label2.TabIndex = 7;
             this.label2.Text = "Ввод числа 2";
             // 
             // btLog
             // 
-            this.btLog.Location = new System.Drawing.Point(628, 211);
+            this.btLog.Location = new System.Drawing.Point(1050, 302);
+            this.btLog.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.btLog.Name = "btLog";
-            this.btLog.Size = new System.Drawing.Size(82, 24);
+            this.btLog.Size = new System.Drawing.Size(196, 57);
             this.btLog.TabIndex = 8;
             this.btLog.Text = "Log";
             this.btLog.UseVisualStyleBackColor = true;
+            this.btLog.Click += new System.EventHandler(this.btLog_Click);
             // 
             // lbAnswer
             // 
             this.lbAnswer.AutoSize = true;
-            this.lbAnswer.Location = new System.Drawing.Point(413, 284);
+            this.lbAnswer.Location = new System.Drawing.Point(563, 422);
+            this.lbAnswer.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lbAnswer.Name = "lbAnswer";
-            this.lbAnswer.Size = new System.Drawing.Size(47, 16);
+            this.lbAnswer.Size = new System.Drawing.Size(102, 37);
             this.lbAnswer.TabIndex = 9;
             this.lbAnswer.Text = "Ответ";
             // 
-            // btAnswer
-            // 
-            this.btAnswer.Location = new System.Drawing.Point(382, 340);
-            this.btAnswer.Name = "btAnswer";
-            this.btAnswer.Size = new System.Drawing.Size(113, 39);
-            this.btAnswer.TabIndex = 10;
-            this.btAnswer.Text = "Ответ";
-            this.btAnswer.UseVisualStyleBackColor = true;
-            // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(19F, 37F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(801, 391);
-            this.Controls.Add(this.btAnswer);
+            this.ClientSize = new System.Drawing.Size(1364, 511);
             this.Controls.Add(this.lbAnswer);
             this.Controls.Add(this.btLog);
             this.Controls.Add(this.label2);
@@ -152,7 +153,8 @@
             this.Controls.Add(this.btMul);
             this.Controls.Add(this.btSum);
             this.Controls.Add(this.btAdd);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Margin = new System.Windows.Forms.Padding(10, 9, 10, 9);
             this.Name = "MainForm";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -172,7 +174,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btLog;
         private System.Windows.Forms.Label lbAnswer;
-        private System.Windows.Forms.Button btAnswer;
     }
 }
 

@@ -6,21 +6,21 @@ using System.Threading.Tasks;
 
 namespace tmp_repository4
 {
-    internal class Math
+    internal class MyMath
     {
-        static double add(double numberA, double numberB)
+        public static double add(double numberA, double numberB)
         {
             return numberA + numberB;
         }
-        static double sub(double numberA, double numberB)
+        public static double sub(double numberA, double numberB)
         {
             return numberA - numberB;
         }
-        static double mul(double numberA, double numberB)
+        public static double mul(double numberA, double numberB)
         {
             return numberA * numberB;
         }
-        static double div(double numberA, double numberB)
+        public static double div(double numberA, double numberB)
         {
             try
             {

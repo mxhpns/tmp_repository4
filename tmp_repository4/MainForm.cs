@@ -16,5 +16,20 @@ namespace tmp_repository4
         {
             InitializeComponent();
         }
+
+        private void btAdd_Click(object sender, EventArgs e)
+        {
+            double a = double.Parse(textBox1.Text);
+            double b = double.Parse(textBox2.Text);
+            lbAnswer.Text = $"{MyMath.add(a, b)}";
+        }
+
+        private void btLog_Click(object sender, EventArgs e)
+        {
+            var alg = new Algebra();
+            double a = double.Parse(textBox1.Text);
+            double b = double.Parse(textBox2.Text);
+            lbAnswer.Text = $"{alg.Log(b, a)}";
+        }
     }
 }
